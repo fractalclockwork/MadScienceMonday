@@ -24,7 +24,7 @@ conda activate shave-and-haircut
 
 **NB. do not add dependencies directly using `conda install` as they will not be automatically saved to the `environment.yml` file for others to use**
 
-Add or remmove dependencies from the `dependencies` list in `environment.yml` then run the following command to update the environment:
+Add or remove dependencies from the `dependencies` list in `environment.yml` then run the following command to update the environment:
 
 ```shell
 conda env update --file environment.yml --prune
